@@ -1,0 +1,12 @@
+# xv6-mini-project-1
+This is a clone of a release of version 2012-01-30-1-g1c41342 of xv6, the purpose of which is to create a new system call that returns the current number of system calls that have been made. 
+This repo is intended to ease collaboration between myself and my group members for the class this project is for. This is in no way intended for other students to copy, and as such I do not guarantee the accuracy of any of the code committed.
+
+
+kernel - kernel and booting
+user - user level programs
+include - shared header files for both kernel and user
+tools - tools to run on the host machine
+README - project description
+Makefile - build instructions for GNU make
+
