@@ -82,7 +82,6 @@ void init_terminal(void)
 
 	rowcnt=winwidth/CHARACTER_WIDTH;
 	columncnt=winheight/CHARACTER_HEIGHT;
-	curl=curr=0;
 
 	initlock(&chars_lock,"chars");
 
@@ -106,7 +105,7 @@ void init_terminal(void)
 	cprintf2("_is_terminal_ready=%d\n",_is_terminal_ready);
 	for(int i=1;i<=10000;i++)
 	{
-		cprintf2("fuck %dtime(s)\n",10040-i);
+		//cprintf2("fuck %dtime(s)\n",10040-i);
 	}
 }
 
